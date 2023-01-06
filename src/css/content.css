@@ -1,0 +1,70 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 14px;
+}
+
+.dg {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 8px;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.d1 {
+  border-left: 5px solid blue;
+}
+
+.d2 {
+  border-left: 5px solid green;
+}
+
+.d3 {
+  border-left: 5px solid lightblue;
+}
+
+.d4 {
+  border-left: 5px solid orange;
+}
+
+.d-logo {
+  width: 40px;
+}
+
+.dashboard-flow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  column-gap: 16px;
+}
+
+.df {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  height: 220px;
+  background-color: white;
+  margin-bottom: 14px;
+}
+
+.f1 .f2 .f3 {
+  justify-content: space-between;
+}
+
+.dashboard-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+}
+
+.dp {
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  height: 180px;
+  background-color: white;
+}

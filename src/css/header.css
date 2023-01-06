@@ -1,0 +1,13 @@
+.header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 160px;
+  background-color: #428bca;
+  box-shadow: 1px 1px 3px grey;
+}

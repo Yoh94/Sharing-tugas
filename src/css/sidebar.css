@@ -1,0 +1,63 @@
+.sidebar {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 101;
+  background-color: #034f84;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.sidebar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.sidebar-logo img {
+  width: 60px;
+  margin-right: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.sidebar-logo-naming {
+  font-weight: bold;
+}
+
+.sidebar-logo-brand {
+  color: rgb(180, 190, 200);
+}
+
+.sidebar-logo-jurnal {
+  color: white;
+  font-size: 22px;
+}
+
+.sidebar-link {
+  height: 75px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: #0060bf;
+}
+
+.sidebar-link img {
+  width: 55px;
+  margin-bottom: 4px;
+  filter: brightness(0) invert(1);
+}
+
+.sidebar-link div {
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
